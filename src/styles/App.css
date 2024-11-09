@@ -1,0 +1,91 @@
+/* src/styles/App.css */
+
+/* Estilo básico para el fondo y centrado del contenido */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1DB954;
+}
+
+.navbar-button {
+  background-color: #1DB954;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Estilos para Login */
+.login-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-container h2 {
+  color: #1DB954;
+}
+
+button {
+  background-color: #1DB954;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Estilos para Home */
+.home-container {
+  width: 80%;
+  padding: 20px;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #282828;
+}
+
+.song-item h3, .song-item p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.rating-button {
+  background-color: #1DB954;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
